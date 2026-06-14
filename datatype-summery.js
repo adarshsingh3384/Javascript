@@ -28,3 +28,27 @@ let myobj = {
     age:  23
 
 }
+
+
+// Stack (Premitive type)        Heap (non Premitive type)
+
+let idemail = "adarsh@gmail.com";
+
+let toemail = idemail;
+    toemail = "ada@gmail.com"
+
+console.log(toemail)
+console.log(idemail)
+
+let adata = {
+
+    email: "adar@gmail.com",
+    user: "adarsh"
+
+}
+
+let todata = adata;
+adata = "lala@gmail.com"
+
+console.log(adata)
+console.log(todata)
